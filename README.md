@@ -1,4 +1,4 @@
-# Sruput Jamu
+# Sruput
 
 > Modern jamu, refreshing taste.
 
@@ -26,8 +26,7 @@ mengarahkan pengunjung menuju pembelian.
 
 ## ✨ Features
 
-- 🎨 Modern & playful UI
-<!-- - 📱 Fully responsive -->
+- 🎨 Modern & playful UI <!-- - 📱 Fully responsive -->
 - 🥤 Product showcase
 - ⭐ Customer testimonials
 - 🛒 Call-to-action untuk pembelian
