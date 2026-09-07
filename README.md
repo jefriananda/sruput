@@ -3,10 +3,6 @@
 > Modern jamu, refreshing taste.
 
 <p align="center">
-  <img src="/public/og-image.png" alt="Sruput Jamu Preview" width="800">
-</p>
-
-<p align="center">
   <a href="https://sruput-jamu.vercel.app/">🌐 Live Demo</a>
 </p>
 
@@ -47,11 +43,11 @@ mengarahkan pengunjung menuju pembelian.
 
 ### Hero
 
-<img src="public/og-image.png" alt="Hero Section" width="800">
+<img src="og-image.png" alt="Hero Section" width="800">
 
 ### Product
 
-<img src="public/variant.png" alt="Product Section" width="800">
+<img src="variant.png" alt="Product Section" width="800">
 
 ---
 
