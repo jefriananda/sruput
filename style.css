@@ -76,15 +76,16 @@ nav div a:hover {
 header {
     min-height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 6rem 4rem;
 }
 
 header .left {
-    width: 50%;
     color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header .left h1 {
@@ -102,6 +103,7 @@ header .left h1 span {
 header .left p {
     font-size: 1.02rem;
     font-weight: 500;
+    padding-left: 4px;
     opacity: 80%;
 }
 
@@ -112,6 +114,7 @@ header .left>div {
     justify-content: start;
     gap: 1rem;
     margin-top: 18px;
+    padding-left: 4px;
 }
 
 .btn {
@@ -161,7 +164,9 @@ header .left>div {
 }
 
 header .right {
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Marquee */
@@ -446,6 +451,133 @@ footer div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: .5rem;
     font-size: .8rem;
     opacity: 80%;
+}
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    #variant>div:not(.section-head) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #why>div:not(.section-head) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #testi>div:not(.section-head) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav,
+    header,
+    section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    footer {
+        padding: 1rem 3rem;
+    }
+
+    footer div {
+        flex-direction: column;
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: .8rem 1rem;
+    }
+
+    nav div {
+        display: none;
+    }
+
+    nav .logo {
+        font-size: 1.3rem;
+    }
+
+    header {
+        padding: 6rem 1rem;
+    }
+
+    header .left h1 {
+        font-size: 4rem;
+    }
+
+    header .left p,
+    .marquee-track {
+        font-size: 1rem;
+    }
+
+    header>div .btn,
+    #buy>p {
+        font-size: .9rem;
+    }
+
+    .section-head h2 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .section-head p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    #why .item h3,
+    #testi .item .quote {
+        font-size: .95rem;
+    }
+
+    #why .item p,
+    #testi .item .who,
+    #buy a button,
+    #buy>div span {
+        font-size: 0.8rem;
+    }
+
+    #buy h2 {
+        font-size: 2.5rem;
+    }
+
+    #variant,
+    #testi,
+    #buy {
+        padding: 3rem 1rem;
+    }
+
+    #why {
+        padding: 3rem .5rem;
+    }
+
+
+    #why>div:not(.section-head) {
+        border: none;
+    }
+
+    #why .item {
+        padding: 1rem;
+    }
+
+    #why .item .mark {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 14px;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    footer div {
+        font-size: .7rem;
+    }
 }
