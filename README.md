@@ -2,9 +2,9 @@
 
 > Modern jamu, refreshing taste.
 
-<!-- <p align="center">
-  <img src="./public/preview.png" alt="Sruput Jamu Preview" width="800">
-</p> -->
+<p align="center">
+  <img src="/public/og-image.png" alt="Sruput Jamu Preview" width="800">
+</p>
 
 <p align="center">
   <a href="https://sruput-jamu.vercel.app/">🌐 Live Demo</a>
@@ -26,10 +26,11 @@ mengarahkan pengunjung menuju pembelian.
 
 ## ✨ Features
 
-- 🎨 Modern & playful UI <!-- - 📱 Fully responsive -->
+- 🎨 Modern & playful UI 
+- 📱 Fully responsive
 - 🥤 Product showcase
 - ⭐ Customer testimonials
-- 🛒 Call-to-action untuk pembelian
+- 🛒 Call-to-action
 - ⚡ Fast & lightweight
 - 🎞️ Interactive animations
 
@@ -46,11 +47,11 @@ mengarahkan pengunjung menuju pembelian.
 
 ### Hero
 
-<img src="./public/preview-hero.png" alt="Hero Section" width="800">
+<img src="public/og-image.png" alt="Hero Section" width="800">
 
 ### Product
 
-<img src="./public/preview-product.png" alt="Product Section" width="800">
+<img src="public/variant.png" alt="Product Section" width="800">
 
 ---
 
