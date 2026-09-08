@@ -510,6 +510,7 @@ footer div {
 
     header .left h1 {
         font-size: 3rem;
+        line-height: 50px;
     }
 
     header .left h1 span {
