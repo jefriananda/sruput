@@ -45,10 +45,6 @@ mengarahkan pengunjung menuju pembelian.
 
 <img src="og-image.png" alt="Hero Section" width="800">
 
-### Product
-
-<img src="variant.png" alt="Product Section" width="800">
-
 ---
 
 ## 🚀 Getting Started
